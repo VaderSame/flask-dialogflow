@@ -26,7 +26,7 @@ def example_route():
  
     return jsonify(data)
 
-
+#  make sure the app is running , postman request working , render request fetch
 if __name__ == "__main__":
     if prod:
         app.run(debug=True)
