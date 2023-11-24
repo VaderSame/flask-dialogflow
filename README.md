@@ -4,8 +4,8 @@ This repository contains a simple Flask web application with two routes deployed
 
 ## Features
 
-- **`/` Route:** Returns the student number in properly formatted JSON.
-- **`/webhook` Route:** Returns the text for Dialogflow integration.
+- **`/route`:** Returns the student number in properly formatted JSON.
+- **`/webhook`:** Returns the text for Dialogflow integration.
 
 ## Deployment
 
