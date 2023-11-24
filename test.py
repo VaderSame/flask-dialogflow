@@ -29,7 +29,7 @@ print(prod)
 # Create Flask App
 app = Flask(__name__)
 
-@app.route("/test-df", methods=["POST"])
+@app.route("/webhook", methods=["POST"])
 def example_df_route():
     data = request.get_json(silent=True)
     message = data["message"]
@@ -59,6 +59,10 @@ def example_route():
  
     return jsonify(data)
 
+
+@app.route("/route", methods = ["GET"])
+def route():
+    return jsonify({"number" : 200543129});
 
 if __name__ == "__main__":
     if prod:
