@@ -47,7 +47,7 @@ Update your Dialogflow agent's fulfillment webhook URL with the Render app's `/w
 
 ## Project Structure
 
-- `app.py`: Flask application with defined routes.
+- `test.py`: Flask application with defined routes.
 - `requirements.txt`: List of Python dependencies.
 - `render.yaml`: Render configuration file.
 
